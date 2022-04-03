@@ -7,7 +7,7 @@
             <img src="https://cdn.landesa.org/wp-content/uploads/default-user-image.png" class="rounded-circle" style="width: 150px">
         </div>
         <div class="col-9 pt-5">
-            <div><h1>Hello, {{Auth::user()->name}}</h1></div>
+            <div><h1>Hello,{{Auth::user()->surname}} {{Auth::user()->name}}</h1></div>
 
             <div class="d-flex">
                 <div style="padding-right: 55px"><strong>7</strong> hours</div>
@@ -16,7 +16,7 @@
             </div>
 
             <div class="pt-4">
-                <h3>Software Engineer</h3>
+                <h3>{{Auth::user()->job_title}}</h3>
             </div>
         </div>
     </div>
