@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
+<div class="container" style="border: 1px solid black;">
     <div class="row">
-        <div class="col-3 p-5">
+        <div class="col-3 p-5" style="text-align: center; border: 1px solid black">
             <img src="https://cdn.landesa.org/wp-content/uploads/default-user-image.png" class="rounded-circle" style="width: 150px">
         </div>
         <div class="col-9 pt-5">
@@ -19,6 +19,9 @@
                 <h3>{{Auth::user()->job_title}}</h3>
             </div>
         </div>
+    </div>
+    <div class="row">
+        <div class="col-12 p-5" style="border: 1px solid black"></div>
     </div>
 </div>
 @endsection
