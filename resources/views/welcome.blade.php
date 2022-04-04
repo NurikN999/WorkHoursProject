@@ -11,7 +11,6 @@
 
         <!-- Styles -->
         <style>
-            /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
             html{line-height:1.15;-webkit-text-size-adjust:100%}
             body{margin:0}
             a{background-color:transparent}
@@ -67,7 +66,29 @@
             /*}*/
             .antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}  .w-5{width:1.25rem}  .w-8{width:2rem}  .w-auto{width:auto}
             .grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}
-            @media (min-width:640px){.sm\:rounded-lg{border-radius:.5rem}  .sm\:block{display:block}  .sm\:items-center{align-items:center}  .sm\:justify-start{justify-content:flex-start}  .sm\:justify-between{justify-content:space-between}  .sm\:h-20{height:5rem}  .sm\:ml-0{margin-left:0}  .sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}  .sm\:pt-0{padding-top:0}  .sm\:text-left{text-align:left}  .sm\:text-right{text-align:right}}@media (min-width:768px){.md\:border-t-0{border-top-width:0}  .md\:border-l{border-left-width:1px}  .md\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (min-width:1024px){.lg\:px-8{padding-left:2rem;padding-right:2rem}}
+            @media (min-width:640px){
+                .sm\:rounded-lg{border-radius:.5rem}
+                .sm\:block{display:block}
+                .sm\:items-center{align-items:center}
+                .sm\:justify-start{justify-content:flex-start
+                }
+                .sm\:justify-between{justify-content:space-between}
+                .sm\:h-20{height:5rem}
+                .sm\:ml-0{margin-left:0}
+                .sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}
+                .sm\:pt-0{padding-top:0}  .sm\:text-left{text-align:left}
+                .sm\:text-right{text-align:right}
+            }
+            @media (min-width:768px)
+            {
+                .md\:border-t-0{border-top-width:0}
+                .md\:border-l{border-left-width:1px}
+                .md\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+            }
+            @media (min-width:1024px)
+            {
+                .lg\:px-8{padding-left:2rem;padding-right:2rem}
+            }
             @media (prefers-color-scheme:dark){
                 .dark\:bg-gray-800{
                     --bg-opacity:1;
