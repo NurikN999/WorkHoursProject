@@ -70,6 +70,12 @@
                                         {{ __('Leisure Time') }}
                                     </a>
 
+                                    <a class="dropdown-item" href="{{ route('home') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('#').submit();">
+                                        {{ __('Home') }}
+                                    </a>
+
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                                         @csrf
                                     </form>
